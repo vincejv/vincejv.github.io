@@ -1,0 +1,7 @@
+* {
+   animation: none !important;
+}
+
+svg {
+  display: none !important;
+}
