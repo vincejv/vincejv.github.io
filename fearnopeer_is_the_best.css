@@ -2,6 +2,6 @@ body > main > article > section.panelV2.blocks__random-media > div > div > [clas
   transition: transform .2s;
 }
 
-body > main > article > section.panelV2.blocks__random-media > div > div > [class*="media"] {
+body > main > article > section.panelV2.blocks__random-media > div > div > [class*="media"]:hover {
   transform: scale(1.2);
 }
