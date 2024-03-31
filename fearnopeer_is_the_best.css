@@ -1,0 +1,7 @@
+body > main > article > section.panelV2.blocks__random-media > div > div > a.media {
+  transition: transform .2s;
+}
+
+body > main > article > section.panelV2.blocks__random-media > div > div > a.media:hover {
+  transform: scale(1.2);
+}
