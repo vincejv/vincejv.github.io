@@ -5,13 +5,13 @@ body > main > article > section.panelV2.blocks__top-torrents > div > table > tbo
 }
 
 body > main > article > section.panelV2.blocks__random-media > div > div > [class*="media"]:hover {
-  transform: scale(1.2);
-  position: absolute;
+  transform: scale(1.3);
 }
 
 body > main > article > section.panelV2.blocks__top-torrents > div > table > tbody > tr > td.torrent-search--list__poster > a > img:hover,
 body > main > article > section.panelV2.blocks__featured > div > ul > li > article > aside > a > figure > img:hover
 {
-  transform: scale(2.0);
+  transform: scale(2.5);
   position: absolute;
+  z-index: 1000;
 }
