@@ -5,3 +5,11 @@ body > main > article > section.panelV2.blocks__random-media > div > div > [clas
 body > main > article > section.panelV2.blocks__random-media > div > div > [class*="media"]:hover {
   transform: scale(1.2);
 }
+
+body > main > article > section.panelV2.blocks__top-torrents > div > table > tbody > tr > td.torrent-search--list__poster > a > img {
+  transition: transform .2s;
+}
+
+body > main > article > section.panelV2.blocks__top-torrents > div > table > tbody > tr > td.torrent-search--list__poster > a > img:hover {
+  transform: scale(1.5);
+}
